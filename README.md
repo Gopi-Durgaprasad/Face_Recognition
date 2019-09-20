@@ -70,7 +70,20 @@ Face Recognition there are mainly three challenges.
   <img src="output/tsne-2.png" width="400"/> 
 </p>
 
-<p> Observe TSNE Visulization of 512-d Embeddings those are well clustered </p>
+<p> Observe TSNE Visulization of 512-d Embeddings those are well clustered </p><br>
+
+* <b> Distance (Best threshold for the verification </b><br>
+  <p> Using this Distance threshold we can easily desided threshold to Recognize faces</p>
+<p>
+  <img src="output/threshold.png"/> 
+</p>
+<p> Observe Distance threshold is 0.74 and it gives 0.98 Accuracy, to recognize faces using simple Euclident distance </p><br>
+
+* <b>Distance distributions of positive and negative pairs</b><br>
+<p>
+  <img src="output/distance_pos_neg.png"/> 
+</p>
+<p> Observe distributions of positive and negative pairs, almost well separated</p><br>
 
 <p> Run this files </p>
 
