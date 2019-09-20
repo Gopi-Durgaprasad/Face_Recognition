@@ -83,7 +83,7 @@ Face Recognition there are mainly three challenges.
 <p>
   <img src="output/distance_pos_neg.png"/> 
 </p>
-<p> Observe distributions of positive and negative pairs, almost well separated</p><br>
+<p> Observe distributions of positive and negative pairs, almost well separated using threshold 0.74 wich gives high Accuracy</p><br>
 
 <p> Run this files </p>
 
