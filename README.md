@@ -37,7 +37,7 @@ Face Recognition there are mainly three challenges.
 3. Train model Clustering/Classification/Similarly to recognize the Face
 
 **1. Detecting Faces:**
-<p>The first main challenge is Detecting Faces from a given image, there are many models to detect faces in an image</p>
+<p> The first main challenge is Detecting Faces from a given image, there are many models to detect faces in an image </p>
 
 *  The first main challenge is Detecting Faces from a given image.
 *  There are so many models to detect faces in this [link](https://github.com/StarStyleSky/awesome-face-detection)
@@ -61,6 +61,10 @@ Face Recognition there are mainly three challenges.
 ### Simple Model
 
 <p> We are build simple model form this [link](https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/)</p>
+
+<b> For more detailed understanding and code : [simple_EDA.ipynb](https://github.com/Gopi-Durgaprasad/Face_Recognition/blob/master/simple_EDA.ipynb) </b> 
+<b> TSNE Visulization for Embeddings </b>
+![tsne-1](output/tsne-1.png "tsne-1") ![tsne-2](output/tsne-2.png "tsne-2")
 
 <p> Run this files </p>
 
