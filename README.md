@@ -62,13 +62,15 @@ Face Recognition there are mainly three challenges.
 
 <p> We are build simple model form this [link](https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/)</p>
 
-<b> For more detailed understanding and code : [simple_EDA.ipynb](https://github.com/Gopi-Durgaprasad/Face_Recognition/blob/master/simple_EDA.ipynb) </b><br>
-<b> TSNE Visulization for Embeddings </b>
+* <b> For more detailed understanding and code : [simple_EDA.ipynb](https://github.com/Gopi-Durgaprasad/Face_Recognition/blob/master/simple_EDA.ipynb) </b><br>
+* <b> TSNE Visulization for Embeddings </b>
 
 <p float="left">
   <img src="output/tsne-1.png" width="400"/>
   <img src="output/tsne-2.png" width="400"/> 
 </p>
+
+<p> Observe TSNE Visulization of 512-d Embeddings those are well clustered </p>
 
 <p> Run this files </p>
 
