@@ -94,7 +94,7 @@ Face Recognition there are mainly three challenges.
 **3. Recognize Face:** `$python3 Simple_recognize.py --image kohili-sachin-dhoni.jpg`
 
 <table  align="center">
-        <tr>
+        <tr  align="center" >
           <td><b>Input Image</b></td>
           <td><b>Output Image</b></td>
         </tr>
