@@ -103,3 +103,15 @@ Face Recognition there are mainly three challenges.
             <td><img src="predictedImg/kohili-sachin-dhoni.png"/></td>
        </tr>
 <table>
+  
+## Retina Faces (state of the art) Face Detection Model
+
+- For accurate face detection, we are using Retina Face model to detect faces.
+- Retina Faces is state of the art model to detect faces
+
+* <b> For more detailed understanding and code : [retinaface.ipynb](https://github.com/Gopi-Durgaprasad/Face_Recognition/blob/master/retinaface.ipynb) </b><br>
+<br>
+**Face Detection Outputs:**
+
+<img src="output/group_of_people.png"/>
+<img src="output/group_of_people-2.png"/>
