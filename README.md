@@ -37,7 +37,7 @@ Face Recognition there are mainly three challenges.
 3. Train model Clustering/Classification/Similarly to recognize the Face
 
 **1. Detecting Faces:**
-<p>The first main challenge is Detecting Faces from a given image, there are many models to detect faces in an image</p>
+<p> The first main challenge is Detecting Faces from a given image, there are many models to detect faces in an image </p>
 
 *  The first main challenge is Detecting Faces from a given image.
 *  There are so many models to detect faces in this [link](https://github.com/StarStyleSky/awesome-face-detection)
@@ -62,6 +62,29 @@ Face Recognition there are mainly three challenges.
 
 <p> We are build simple model form this [link](https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/)</p>
 
+* <b> For more detailed understanding and code : [simple_EDA.ipynb](https://github.com/Gopi-Durgaprasad/Face_Recognition/blob/master/simple_EDA.ipynb) </b><br>
+* <b> TSNE Visulization for Embeddings </b>
+
+<p float="left">
+  <img src="output/tsne-1.png" width="400"/>
+  <img src="output/tsne-2.png" width="400"/> 
+</p>
+
+<p> Observe TSNE Visulization of 512-d Embeddings those are well clustered </p><br>
+
+* <b> Distance (Best threshold for the verification </b><br>
+  <p> Using this Distance threshold we can easily desided threshold to Recognize faces</p>
+<p  align="center">
+  <img src="output/threshold.png"/> 
+</p>
+<p> Observe Distance threshold is 0.74 and it gives 0.98 Accuracy, to recognize faces using simple Euclident distance </p><br>
+
+* <b>Distance distributions of positive and negative pairs</b><br>
+<p>
+  <img src="output/distance_pos_neg.png"/> 
+</p>
+<p> Observe distributions of positive and negative pairs, almost well separated using threshold 0.74 wich gives high Accuracy</p><br>
+
 <p> Run this files </p>
 
 **1. Extract Embeddings:** `$python3 Simple_extractEmbeddings.py`
@@ -70,10 +93,13 @@ Face Recognition there are mainly three challenges.
 
 **3. Recognize Face:** `$python3 Simple_recognize.py --image kohili-sachin-dhoni.jpg`
 
-**Input Image:** kohili-sachin-dhoni.jpg
-
-![kohili-sachin-dhoni.jpg](kohili-sachin-dhoni.jpg?raw=true "kohili-sachin-dhoni.jpg")
-
-**Output Image:**
-
-![kohili-sachin-dhoni.png](predictedImg/kohili-sachin-dhoni.png?raw=true "kohili-sachin-dhoni.png")
+<table  align="center">
+        <tr  align="center" >
+          <td><b>Input Image</b></td>
+          <td><b>Output Image</b></td>
+        </tr>
+        <tr>
+            <td><img src="kohili-sachin-dhoni.jpg"/></td>
+            <td><img src="predictedImg/kohili-sachin-dhoni.png"/></td>
+       </tr>
+<table>
