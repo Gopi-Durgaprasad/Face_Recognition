@@ -110,7 +110,7 @@ Face Recognition there are mainly three challenges.
 - Retina Faces is state of the art model to detect faces
 
 * <b> For more detailed understanding and code : [retinaface.ipynb](https://github.com/Gopi-Durgaprasad/Face_Recognition/blob/master/retinaface.ipynb) </b><br>
-<br>
+
 **Face Detection Outputs:**
 
 <img src="output/group_of_people.png"/>
