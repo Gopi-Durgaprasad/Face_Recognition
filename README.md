@@ -26,7 +26,8 @@ We are stating with pre-trained FaceNet model implemented in PyTorch [link](http
 From this repo, we download pre-trained weights and models.
 
 ModelName : VGGFace2 [link](https://github.com/timesler/facenet-pytorch/blob/master/models/inception_resnet_v1.py)
-weights : [link](https://drive.google.com/uc?export=download&id=1TDZVEBudGaEd5POR5X4ZsMvdsh1h68T1)
+
+Weights : [link](https://drive.google.com/uc?export=download&id=1TDZVEBudGaEd5POR5X4ZsMvdsh1h68T1)
 
 ### Challenges
 Face Recognition there are mainly three challenges.
@@ -46,9 +47,9 @@ Face Recognition there are mainly three challenges.
 <p>The second challenge is getting embedding for the detected faces, we are using FaceNet Model for getting Embeddings for faces.</p>
 
 * Trine a model using FaceNet architecture / Download pre-train model and train.
-* FaceNet Implementation : [link](https://github.com/timesler/facenet-pytorch)
-* Pretrained Model : [link](https://github.com/timesler/facenet-pytorch/blob/master/models/inception_resnet_v1.py)
-* Pretrainde Weights : [link](https://drive.google.com/uc?export=download&id=1TDZVEBudGaEd5POR5X4ZsMvdsh1h68T1)
+* FaceNet Implementation :[link](https://github.com/timesler/facenet-pytorch)
+* Pretrained Model :[link](https://github.com/timesler/facenet-pytorch/blob/master/models/inception_resnet_v1.py)
+* Pretrainde Weights :[link](https://drive.google.com/uc?export=download&id=1TDZVEBudGaEd5POR5X4ZsMvdsh1h68T1)
 
 **3. Train model Clustering/Classification/Similarly to recognize the Face**
 <p>There are three many ways to train a model to recognize the face </p>
