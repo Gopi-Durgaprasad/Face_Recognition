@@ -74,7 +74,7 @@ Face Recognition there are mainly three challenges.
 
 * <b> Distance (Best threshold for the verification </b><br>
   <p> Using this Distance threshold we can easily desided threshold to Recognize faces</p>
-<p>
+<p  align="center">
   <img src="output/threshold.png"/> 
 </p>
 <p> Observe Distance threshold is 0.74 and it gives 0.98 Accuracy, to recognize faces using simple Euclident distance </p><br>
